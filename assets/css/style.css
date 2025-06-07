@@ -1,0 +1,188 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f9f9f9;
+}
+header {
+  background: #333;
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: none;
+  text-align: center;
+}
+nav a {
+  margin: 0 15px;
+  color: #fff;
+  text-decoration: none;
+}
+section {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+.project {
+  background: #fff;
+  padding: 10px;
+  border-left: 5px solid #333;
+  margin-bottom: 10px;
+}
+
+.project:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  background: #333;
+  color: #fff;
+}
+
+/* for skill bars */
+
+.skill_card {
+  background: #fff;
+  padding: 10px;
+  border-left: 5px solid #a14484;
+  margin-bottom: 10px;
+}
+
+.skill_card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.skill_container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+}
+
+.c {width: 90%; background-color: #a14e12;}
+.python {width: 90%; background-color: #3f6dbc;}
+.java {width: 90%; background-color: #61390b;}
+.html {width: 90%; background-color: #04AA6D;}
+.css {width: 80%; background-color: #1a66a4;}
+.js {width: 65%; background-color: #209149;}
+.php {width: 60%; background-color: #808080;}
+
+
+/* profile picture */
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #fff;
+  margin-bottom: 10px;
+}
+
+/* buttons */
+.button_header {
+  background-color: #333; /* Green */
+  border: none;
+  color: #fff;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.button_header:hover {background-color: #837e7e;}
+
+/*containers for contacts*/
+
+.container {
+  display: grid;
+  column-gap: 30px;
+  row-gap: 30px;
+  grid-template-columns: 300px 300px 300px;
+  background:auto;
+  padding: 20px;
+}
+
+.container > div {
+  background-color: #f1f1f1;
+  border: none;
+  padding: 10px; 
+  font-size: 30px;
+  text-align: center;
+  
+}
+
+.container > div:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+
+
+
+
+
+
+
+
+/* Make content responsive for small screens */
+
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  header {
+    padding: 15px;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .button_header {
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .container > div {
+    width: 90%;
+    font-size: 20px;
+  }
+
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+  }
+
+  section {
+    padding: 15px;
+    width: 100%;
+  }
+
+  .project {
+    font-size: 16px;
+  }
+
+  h1, h2, h3 {
+    text-align: center;
+  }
+}

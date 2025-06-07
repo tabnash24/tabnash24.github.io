@@ -1,0 +1,19 @@
+<h2>Skills</h2>
+    <ul>
+      <li>Languages: Java, C, Python, PHP, HTML, CSS, JS</li>
+      <li>Tools: Android Studio, MySQL, GIMP, Hadoop</li>
+      <li>Concepts: OOP, Full Stack Development, Data Handling</li>
+    </ul>
+
+
+
+
+
+to add:
+
+
+languages spoken
+
+experience
+
+project details with iframe demo if possible and readme file in each
