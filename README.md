@@ -1,4 +1,4 @@
-# T Tabna Shahid – Personal Portfolio
+# Tabna Shahid – Personal Portfolio
 
 A mobile-friendly personal portfolio website to showcase my projects, skills, and resume. Built using **HTML** and **CSS** and hosted via **GitHub Pages**.
 
