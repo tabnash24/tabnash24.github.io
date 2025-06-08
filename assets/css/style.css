@@ -126,7 +126,9 @@ footer {
 }
 
 
-
+figcaption {
+  display: block;
+}
 
 
 
